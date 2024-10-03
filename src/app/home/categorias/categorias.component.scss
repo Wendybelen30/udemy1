@@ -1,0 +1,28 @@
+.categorias-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .categoria {
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .categoria-img {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .titulo{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .categoria-img:hover {
+    transform: scale(1.1);
+  }
+  .nombrecat{
+    font-size: 15px;
+    font-weight: bold;
+  }

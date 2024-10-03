@@ -1,0 +1,44 @@
+.collab-section {
+    margin-top: 50px;
+    background-color: #F7F9FA; /* Color de fondo gris para toda la sección */
+    min-height: 200px; /* Altura mínima de la sección */
+    padding: 40px 0; /* Espacio arriba y abajo */
+  }
+  
+  .header-text {
+    font-size: 16px; /* Tamaño de la fuente */
+    text-align: center; /* Centrar el texto */
+    margin-bottom: 30px; /* Espacio debajo del texto */
+    color: #6A6F73; /* Color del texto */
+  }
+  
+  .collab-business {
+    display: flex; /* Usar flexbox para la distribución */
+    justify-content: center; /* Centrar los logos en la fila */
+    margin: 0 120px; /* Márgenes a ambos lados */
+    flex-wrap: wrap; /* Permitir que los logos se ajusten en varias filas */
+  }
+  
+  .business-logo {
+    max-height: 50px; /* Altura máxima de los logos */
+    margin: 0 20px; /* Espacio entre los logos */
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .collab-business {
+        margin: 0 20px; /* Márgenes reducidos en pantallas pequeñas */
+    }
+  
+    .business-logo {
+        max-height: 40px; /* Ajustar el tamaño en pantallas pequeñas */
+    }
+  
+    .header-text {
+        font-size: 18px; /* Ajustar el tamaño del texto en pantallas pequeñas */
+    }
+  }
+  
+  .collab-section {
+    position: relative; /* Contenedor relativo para posicionar elementos dentro */
+  }

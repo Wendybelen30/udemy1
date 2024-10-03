@@ -1,0 +1,10 @@
+<div *ngIf="mostrarNotificacion" class="smart-bar-notification">
+  <span class="smart-bar-title">
+    <strong>Un mundo de aprendizaje en oferta, desde solo 179 MX$</strong> | Aprende nuevas habilidades de la mano de instructores de todo el mundo, ahora rebajadas.
+  </span>
+  <div class="smart-bar-timer">
+    <strong>{{ tiempoRestante }}</strong>
+  </div>
+  <button class="cerrar-notificacion" (click)="cerrarNotificacion()">X</button>
+</div>
+

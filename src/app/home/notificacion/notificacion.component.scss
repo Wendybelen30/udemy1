@@ -1,0 +1,55 @@
+:host {
+    position: relative;
+    display: block;
+  }
+  
+  .smart-bar-notification {
+    background-color: #eceb98; /* Color de fondo del contenedor */
+    padding: 10px;
+    border-radius: 5px;
+    //display: flex;
+    //flex-direction: column;
+    //align-items: center;
+    text-align: center;
+    color: #2d2f31;
+    //position: relative; /* Para posicionar el botón de cerrar */
+    //margin:auto; /* Centrar horizontalmente */
+    position: fixed; /* Fijar la barra en la parte superior */
+    top: 0; /* Pegada a la parte superior */
+    width: 100%;
+    left: 0;
+    z-index: 9999; /* Asegurarse que esté por encima de otros elementos */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera para destacar */
+  }
+  
+  /* Estilo del título en negritas */
+  .smart-bar-title {
+    display: block;
+    //font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilo del temporizador */
+  .smart-bar-timer {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo del botón de cerrar */
+  .cerrar-notificacion {
+    background: transparent; /* Sin color de fondo */
+    color: #999; /* Color gris */
+    border: none; /* Sin borde */
+    padding: 5px 10px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 1rem; /* Tamaño del texto */
+    position: absolute; /* Posicionamiento absoluto para colocar el botón en la esquina */
+    top: 50%; /* Centrando verticalmente dentro del contenedor */
+    transform: translateY(-50%); /* Ajustar la posición verticalmente */
+    right: 10px; /* Margen desde el lado derecho */
+    display: flex;
+    align-items: center; /* Alinear verticalmente el texto del botón */
+  }

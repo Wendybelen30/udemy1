@@ -1,0 +1,41 @@
+.footer-dark {
+    background-color: #333;
+    color: #fff;
+    padding: 25px;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #333;
+  }
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 13px;
+  }
+  .footer-link:hover {
+    text-decoration: underline;
+  }
+  .logoycopy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    background-color: #333;
+    color:#fff;
+    padding-top: 60px;
+    font-size: 11px;
+  }
+  .custom-button {
+    --border-color: white;
+    --color: white;
+    margin-top: -90px; /* Ajusta el valor según lo que necesites */
+    margin-left: 300px;
+  }
+  .logo {
+    margin-left: 20px;
+    width: 80px;
+  }

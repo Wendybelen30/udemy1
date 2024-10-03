@@ -1,0 +1,79 @@
+.card-container {
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+    margin-left: 200px;
+  }
+  
+  .card {
+    width: 200px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card-info {
+    margin-top: 10px;
+  }
+  
+  .rating {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .best-seller {
+    color: yellow;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+  }
+
+  .textos {
+    padding: 10px; /* Añade espacio alrededor del contenido */
+    padding-top: 150px;
+    max-width: 900px; /* Limita el ancho del contenido */
+    margin: -5%; /* Centra el contenido en la pantalla */
+  }
+  
+  .textos h2 {
+    font-size: 2.5rem; /* Tamaño grande para destacar */
+    font-weight: 700; /* Negrita */
+    margin-bottom: 20px; /* Espacio inferior */
+    color: #222; /* Color ligeramente más oscuro */
+    margin-left: 200px;
+  }
+  
+  .textos p {
+    font-size: 1.2rem; /* Tamaño más legible */
+    margin-bottom: 30px; /* Espacio entre párrafos */
+    color: #555; /* Color más suave para el texto */
+    margin-left: 200px;
+  }
+  
+  .textos h3 {
+    font-size: 2rem; /* Tamaño más pequeño que h2 */
+    font-weight: 600; /* Negrita moderada */
+    margin-bottom: 15px; /* Espacio inferior */
+    color: #333; /* Color del texto */
+    margin-left: 200px;
+  }
+  
+  .textos h5 {
+    font-size: 1.1rem; /* Tamaño moderado */
+    font-weight: 400; /* Regular */
+    line-height: 1.8; /* Más espacio entre líneas */
+    color: #666; /* Color suave para menor importancia */
+    margin-bottom: 20px; /* Espacio entre párrafos */
+    margin-left: 200px;
+  }
+  
+  .textos h5 br {
+    margin-bottom: 10px; /* Espacio adicional entre líneas */
+  }

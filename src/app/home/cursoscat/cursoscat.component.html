@@ -1,0 +1,24 @@
+<div class="courses-cat" size-sm="12" size-md="6" size-lg="4" size-xl="3">
+  <div class="textos">
+  <h2>Una amplia selección de cursos</h2>
+  <p>Elige entre más de 250 000 cursos de vídeo en línea con nuevo contenido cada mes.</p>
+  <h3>Amplía tus oportunidades profesionales con Python</h3>
+  <h5>Tanto si trabajas en el segmento del aprendizaje automático o de las finanzas como si <br> deseas desarrollar tu carrera en ciencias de datos o desarrollo web, Python es una <br> de las habilidades más importantes que puedes aprender. La sencilla <br> sintaxis de Python es especialmente adecuada para equipos de escritorio, web y</h5>
+</div>
+<p></p>
+  <div class="card-container">
+    <div class="card" *ngFor="let course of courses">
+      <img [src]="course.image" alt="Course image" />
+      <div class="card-info">
+        <h3>{{ course.title }}</h3>
+        <p>{{ course.instructor }}</p>
+        <div class="rating">
+          <span>{{ course.rating }} ★</span>
+          <span>({{ course.enrollments }})</span>
+        </div>
+        <p class="price">{{ course.price }}</p>
+      </div>
+    </div>
+  </div>  
+</div>
+

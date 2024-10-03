@@ -1,0 +1,19 @@
+<div class="courses-top">
+  <h2>Los estudiantes están viendo</h2>
+  <div class="card-container">
+    <div class="card" *ngFor="let course of topCourses">
+      <img [src]="course.image" alt="Course image" />
+      <div class="card-info">
+        <h3>{{ course.title }}</h3>
+        <p>{{ course.instructor }}</p>
+        <div class="rating">
+          <span>{{ course.rating }} ★</span>
+          <span>({{ course.enrollments }})</span>
+        </div>
+        <p class="price">{{ course.price }}</p>
+        <span class="best-seller" *ngIf="course.bestSeller">Top Rated</span>
+      </div>
+    </div>
+  </div>
+</div>
+

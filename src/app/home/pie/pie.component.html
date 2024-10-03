@@ -1,0 +1,24 @@
+<ion-footer class="footer-dark">
+  <ion-toolbar>
+    <div class="footer-content">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="4" *ngFor="let link of links" style="display: flex; flex-direction: column;">
+            <a href="#" class="footer-link">{{link.subtitulo}}</a>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <ion-button class="custom-button" fill="outline">
+        <ion-icon name="globe-outline"></ion-icon>Español
+      </ion-button>
+    </div>
+    <div class="logoycopy">
+      <div class="logo">
+        <img src="../assets/imagenes/logoub.png" alt="Udemy logo" />
+      </div>
+      <div class="copy">
+        <span class="copy">© 2024 Udemy, Inc.</span>
+      </div>
+    </div>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,27 @@
+<ion-header class="cabeza">
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-button>
+        <img src="assets/imagenes/logou.png" alt="Logo" style="height: 24px;" />
+      </ion-button>
+      <ion-button>Categorias</ion-button>
+    </ion-buttons>
+    <ion-searchbar placeholder="Buscar cualquier cosa" style="flex-grow: 1;"></ion-searchbar>
+    <ion-buttons slot="end">
+      <ion-button>Udemy Business</ion-button>
+      <ion-button>Enseña en Udemy</ion-button>
+      <ion-button>
+        <ion-icon name="cart-outline"></ion-icon>
+      </ion-button>
+      <ion-button class="bordes" [routerLink]="['inisec']">
+        Iniciar sesión
+      </ion-button>
+      <ion-button fill="solid" color="dark" [routerLink]="['registro']">
+        Regístrate
+      </ion-button>
+      <ion-button class="bordes">
+        <ion-icon name="globe-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>

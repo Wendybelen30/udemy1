@@ -1,0 +1,41 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    .login-image {
+      width: 50%;
+      text-align: center;
+    }
+    .login-image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .login-form {
+      width: 40%;
+      text-align: left;
+      h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      ion-item {
+        margin-bottom: 15px;
+      }
+      .social-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+      }
+      .register-options {
+        margin-top: 20px;
+        a {
+          color: var(--ion-color-primary);
+        }
+      }
+    }
+  }
+   .botonis{
+    --background-color: purple;
+   }

@@ -1,0 +1,11 @@
+ <ion-title class="titulo">Categorías principales</ion-title>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="3" *ngFor="let categoria of categorias">
+        <img [src]="categoria.img" alt="{{ categoria.nombre }}" class="categoria-img" style="width: 100%;"/>
+
+        <h3 class="nombrecat">{{ categoria.nombre }}</h3>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+

@@ -1,0 +1,27 @@
+.imagen {
+    width: 100%; /* Asegura que la imagen cubra todo el contenedor */
+    height: auto;
+    z-index: -1; /* Imagen detrás del contenido */
+  }
+  
+  .tarjeta {
+    position: absolute;
+    top: 30%; /* Centrado vertical */
+    left: 30%; /* Centrado horizontal */
+    transform: translate(-50%, -5%); /* Ajusta para centrar perfectamente */
+    width: 40%; /* Ancho de la tarjeta */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    z-index: 1; /* Tarjeta encima de la imagen */
+  }
+  
+  ion-card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  ion-card-content {
+    font-size: 1rem;
+  }
